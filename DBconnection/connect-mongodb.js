@@ -6,7 +6,7 @@ function connectToDB(callback) {
         failedReason: null
 
     };
-    mongoose.connect('mongodb+srv://admin:admin@cluster0-orp8m.mongodb.net/codeword?retryWrites=true', {
+    mongoose.connect('mongodb+srv://sairam0292:Password@1@cluster0-ccdhv.mongodb.net/test?retryWrites=true', {
         useNewUrlParser: true
     })
         .then(function () {

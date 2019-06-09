@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://admin:admin@cluster0-orp8m.mongodb.net/codeword?retryWrites=true', {useNewUrlParser: true})
+mongoose.connect('mongodb+srv://sairam0292:Password@1@cluster0-ccdhv.mongodb.net/test?retryWrites=true', {useNewUrlParser: true})
 .then(() => {
     console.log('DB Connected');
 }, err => {
